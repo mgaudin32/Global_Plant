@@ -7,6 +7,7 @@ import plotly.express as px
 import dash_bootstrap_components as dbc
 from plotly import graph_objs as go
 import dash_auth
+from users import VALID_USERNAME_PASSWORD_PAIRS
 
 VALID_USERNAME_PASSWORD_PAIRS = {'test':'dash1989'}
 
